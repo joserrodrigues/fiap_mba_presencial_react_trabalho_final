@@ -15,16 +15,16 @@ Você terá de desenvolver um aplicativo Next.js PWA que irá listar os produtos
 
 # Páginas
 
-## Página de Login
+## Página de login
 
 - Página em Next.js com e-mail e senha para autenticar o usuário
-- Você utilizará a **API Login**
+- Você utilizará a **API MBA Presencial - Trabalho Final - Realiza o login do usuário /storeProducts/login**
 - Utilizar o Yup para realizar a validação
 
 ## Página de cadastro
 
 - Página em Next.js com nome, telefone, e-mail e senha para cadastrar o usuário
-- Você utilizará a **API Register**
+- Você utilizará a **API MBA Presencial - Trabalho Final - Realiza o cadastro do usuário /storeProducts/signup**
 - Utilizar o Yup para realizar a validação
 
 ## Header
@@ -43,14 +43,15 @@ Você terá de desenvolver um aplicativo Next.js PWA que irá listar os produtos
 - Página em Next.js que exibirá em uma tabela os dados dos produtos
 - A tabela deverá mostrar: Nome do Produto, Preço do Produto, Favorito e um botão de visualizar detalhe (Ir a tela **Detalhe do produto**).
 - Essa página utilizar a paginação de resultados.
-- Você utilizará a **API Buscar Produtos**.
+- Você utilizará a **API MBA Presencial - Trabalho Final - Busca todos os produtos /storeProducts/**
 - Essa página deverá buscar a posição do usuário.
 
-## Página de Favoritos
+## Página de favoritos
 
 - Página em Next.js que exibirá os produtos determinados como favoritos dos usuários.
 - A tabela deverá mostrar: Nome do Produto, Preço do Produto, Favorito e um botão de visualizar detalhe (Ir a tela **Detalhe do produto**).
 - Você utilizará a **API Buscar Favoritos**.
+- Você utilizará a **API MBA Presencial - Trabalho Final - Busca todos os produtos favoritos /storeProducts/getFavProduts**
 - Essa tela deverá buscar a informação pré-carregada do servidor.
 
 ## Detalhe do produto
@@ -61,7 +62,7 @@ Você terá de desenvolver um aplicativo Next.js PWA que irá listar os produtos
   - Preço do Produto
   - Se é Favorito do usuário (e um botão para marcar/desmarcar favorito)
   - Mapa com a posição do usuário e as lojas com o produto disponível
-- Você utilizará a **API Buscar Info Produto** e **API Favoritar Produto**
+- Você utilizará a **API MBA Presencial - Trabalho Final - Busca informação de um produto /storeProducts/product/:productID** e **API MBA Presencial - Trabalho Final - Adicionar ou remove um produto como favorito da pessoa /storeProducts/manageFavorite**
 - Essa tela deverá buscar a informação pré-carregada do servidor e os produtos de 1 a 5 já deverão ser previamente carregados na construção do app
 
 # Doc das APIs
