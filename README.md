@@ -1,5 +1,5 @@
 
-# FIAP MBA Mobile - Trabalho Final - React JS
+# FIAP MBA - Trabalho Final - React JS
 
 Olá, seja bem-vindo a entrega final do Aula Aplicações Web com React.
 
