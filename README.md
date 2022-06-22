@@ -42,17 +42,14 @@ Você terá de desenvolver um aplicativo Next.js PWA que irá listar os produtos
 
 - Página em Next.js que exibirá em uma tabela os dados dos produtos
 - A tabela deverá mostrar: Nome do Produto, Preço do Produto, Favorito e um botão de visualizar detalhe (Ir a tela **Detalhe do produto**).
-- Essa página utilizar a paginação de resultados.
-- Você utilizará a **API MBA Presencial - Trabalho Final - Busca todos os produtos /storeProducts/**
+- Essa página utilizará a paginação de resultados com a **API MBA Presencial - Trabalho Final - Busca todos os produtos /storeProducts/**
 - Essa página deverá buscar a posição do usuário.
 
 ## Página de favoritos
 
 - Página em Next.js que exibirá os produtos determinados como favoritos dos usuários.
 - A tabela deverá mostrar: Nome do Produto, Preço do Produto, Favorito e um botão de visualizar detalhe (Ir a tela **Detalhe do produto**).
-- Você utilizará a **API Buscar Favoritos**.
 - Você utilizará a **API MBA Presencial - Trabalho Final - Busca todos os produtos favoritos /storeProducts/getFavProduts**
-- Essa tela deverá buscar a informação pré-carregada do servidor.
 
 ## Detalhe do produto
 
